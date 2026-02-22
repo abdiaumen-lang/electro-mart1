@@ -1,0 +1,174 @@
+I want you to build a professional FULL STACK E-commerce website called "Electro Mart" for selling electronics in Algeria.
+
+⚙️ TECH STACK:
+- Frontend: Next.js 14 (App Router) + Tailwind CSS + Framer Motion
+- Backend: Node.js + Express
+- Database: MongoDB (Mongoose)
+- Authentication: JWT
+- Admin Panel protected route
+- Deployment ready for Replit
+
+🌍 TARGET COUNTRY:
+Algeria
+Payment method: Cash on Delivery (COD) only
+
+====================================
+🖥 FRONTEND REQUIREMENTS:
+====================================
+
+1) Modern Hero Section
+- Big banner
+- Call to action button (Shop Now)
+- Animated text
+- Clean professional look (Black + Blue theme)
+
+2) Categories Section
+- Smartphones
+- Laptops
+- Headphones
+- Gaming
+- Accessories
+Each category has:
+- Icon
+- Hover animation
+- Click to filter products
+
+3) Products Grid
+- Product card includes:
+  - Product image
+  - Name
+  - Short description
+  - Price in DZD
+  - Old price (red with line-through)
+  - Add to cart button
+  - View details button
+
+4) Product Details Page
+- Large image gallery
+- Full description
+- Specifications table
+- Price
+- Quantity selector
+- Add to cart
+- WhatsApp order button
+
+5) Shopping Cart
+- Slide cart panel
+- Update quantity
+- Remove item
+- Show total price
+- Checkout button
+
+6) Checkout Page
+- Customer full name
+- Phone number
+- Wilaya
+- Address
+- Order summary
+- Submit order (Cash on delivery)
+
+7) Order Confirmation Page
+- Success message
+- Order number
+- Estimated delivery 1-3 days
+
+====================================
+🧠 BACKEND REQUIREMENTS:
+====================================
+
+Create REST API:
+
+AUTH:
+- Register admin
+- Login admin (JWT)
+
+PRODUCTS:
+- Add product
+- Edit product
+- Delete product
+- Get all products
+- Get single product
+- Filter by category
+
+ORDERS:
+- Create order
+- Get all orders (admin)
+- Update order status
+- Delete order
+
+====================================
+🛠 ADMIN PANEL:
+====================================
+
+Protected route: /admin
+
+Dashboard includes:
+- Total sales
+- Total orders
+- Total products
+- Recent orders table
+
+Admin can:
+- Add product (image upload)
+- Edit product
+- Delete product
+- Change order status (Pending / Confirmed / Shipped / Delivered)
+
+====================================
+🎨 DESIGN:
+====================================
+
+Theme:
+- Black background
+- Electric blue accents
+- White clean cards
+- Smooth animations
+- Professional typography
+- Mobile responsive
+
+====================================
+📦 DATABASE STRUCTURE:
+====================================
+
+User:
+- name
+- email
+- password
+- role
+
+Product:
+- name
+- description
+- category
+- price
+- oldPrice
+- stock
+- images
+- createdAt
+
+Order:
+- customerName
+- phone
+- wilaya
+- address
+- products
+- totalPrice
+- status
+- createdAt
+
+====================================
+🔐 SECURITY:
+====================================
+- Protect admin routes
+- Validate inputs
+- Hash passwords (bcrypt)
+- Secure JWT
+
+====================================
+🚀 EXTRA FEATURES:
+====================================
+- WhatsApp automation message after order
+- SEO optimized
+- Fast loading
+- Clean folder structure
+- Ready to deploy
